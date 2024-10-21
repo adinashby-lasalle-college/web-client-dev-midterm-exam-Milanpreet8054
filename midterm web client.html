@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage with a structured layout.">
+    <title>Sample Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <article class="column">
+                <h2>Column 1</h2>
+                <p>This is the first column of the main content area.</p>
+            </article>
+            <article class="column">
+                <h2>Column 2</h2>
+                <p>This is the second column of the main content area.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Webpage</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive form for user input.">
+    <title>Interactive Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>User Information Form</h1>
+    </header>
+    
+    <main>
+        <form id="userForm" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="topic">Select a Topic:</label>
+            <select id="topic" name="topic" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option value="web-development">Web Development</option>
+                <option value="data-science">Data Science</option>
+                <option value="design">Design</option>
+            </select>
+
+            <label for="fileUpload">Upload a file:</label>
+            <input type="file" id="fileUpload" name="fileUpload" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Interactive Form</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of the webpage.</p>
+        </section>
+        <section id="about">
+            <h2>About Section</h2>
+            <p>This section contains information about the webpage.</p>
+        </section>
+        <section id="services">
+            <h2>Services Section</h2>
+            <p>This section outlines the services offered.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <p>This section provides contact information.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Webpage</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Enhanced Webpage</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home" aria-label="Go to Home section">Home</a></li>
+                <li><a href="#about" aria-label="Go to About section">About</a></li>
+                <li><a href="#services" aria-label="Go to Services section">Services</a></li>
+                <li><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of the webpage.</p>
+        </section>
+        <section id="about">
+            <h2>About Section</h2>
+            <p>This section contains information about the webpage.</p>
+        </section>
+        <section id="services">
+            <h2>Services Section</h2>
+            <p>This section outlines the services offered.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <p>This section provides contact information.</p>
+        </section>
+        <section id="media">
+            <h2>Media Section</h2>
+            <p>Enjoy this informative video:</p>
+            <video controls aria-label="Informative video about our services">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Enhanced webpage</p>
+    </footer>
+</body>
+</html>
+<section id="table-and-list">
+    <h2>Product Pricing</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Hosting</td>
+                <td>Reliable web hosting service with 99.9% uptime.</td>
+                <td>$5/month</td>
+            </tr>
+            <tr>
+                <td>Domain Registration</td>
+                <td>Secure your domain name for one year.</td>
+                <td>$15/year</td>
+            </tr>
+            <tr>
+                <td>SSL Certificate</td>
+                <td>Enhance your website security with an SSL certificate.</td>
+                <td>$50/year</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Web Design Best Practices</h2>
+    <ul>
+        <li>Use a clean and simple layout.</li>
+        <li>Ensure mobile responsiveness.</li>
+        <li>Optimize images for faster loading times.</li>
+    </ul>
+</section>
